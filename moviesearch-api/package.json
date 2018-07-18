@@ -1,0 +1,29 @@
+{
+  "name": "moviesearch-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Moviesearch api service",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "keywords": [],
+  "author": "Jonathan Vazquez <vamtha24@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vamtha/moviesearch.git"
+  },
+  "homepage": "https://github.com/vamtha/moviesearch#readme",
+  "bugs": {
+    "url": "https://github.com/vamtha/moviesearch/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "micro": "^9.3.2",
+    "query-string": "^6.1.0"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  }
+}
